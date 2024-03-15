@@ -1,2 +1,36 @@
-
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 50px;
+  justify-content: center; /* Distributes items along the main axis */
+}
+
+#eg1{
+	width : 100px;
+	height: 100px;
+	background-color: red;
+	order: 2;
+}
+
+#eg2{
+	width : 100px;
+	height: 100px;
+	background-color: blue;
+	order: 3;
+}
+
+#eg3{
+	width : 100px;
+	height: 100px;
+	background-color: green;
+	order: 1;
+}
+
+.item {
+  flex: 0 0 auto; /* Flex-grow, flex-shrink, flex-basis */
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+  /* margin-bottom: 10px; /* Adjust as needed */ */
+}
